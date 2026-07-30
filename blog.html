@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ijodkorlar Blogi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* SAYT UCHUN ZAMONAVIY GRADIENT FON */
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .blog-container {
+            width: 100%;
+            max-width: 600px;
+        }
+        .post-card {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+            overflow: hidden; /* Rasmni burchaklarini ham yumaloq qilish uchun */
+            transition: transform 0.2s;
+        }
+        .post-card:hover {
+            transform: translateY(-5px); /* Maqola ustiga kelganda ozgina ko'tariladi */
+        }
+        /* MAQOLA RASMI UCHUN STIL */
+        .post-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Rasmni buzilmasdan chiroyli joylashtiradi */
+            background-color: #ddd; /* Rasm yuklanguncha turadigan fon */
+        }
+        .post-content {
+            padding: 20px;
+        }
+        .post-title {
+            color: #007bff;
+            margin-top: 0;
+            font-size: 22px;
+        }
+        .post-meta {
+            font-size: 13px;
+            color: #6c757d;
+            margin-bottom: 12px;
+        }
+        .post-text {
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ijodkorlar va Talabalar Maqolalari</h1>
+
+    <!-- E'LON VA TELEGRAM TUGMA -->
+    <div style="background: rgba(255, 243, 205, 0.9); color: #856404; padding: 20px; border-radius: 14px; max-width: 600px; width: 100%; margin-bottom: 25px; box-sizing: border-box; border: 1px solid #ffeeba; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+        <h3 style="margin-top: 0; font-size: 18px;">Maqolangizni e'lon qiling!</h3>
+        <p style="font-size: 14px; margin-bottom: 15px;">
+            Siz ham o'z ilmiy yoki ijodiy maqolangizni platformamizda e'lon qilib, shaxsiy portfoliangizni boyitishingiz mumkin. Xizmat narxi kelishilgan holda.
+        </p>
+        <a href="https://t.me/abdulmal1kov" target="_blank" style="background-color: #28a745; color: white; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; box-shadow: 0 3px 6px rgba(40,167,69,0.3);">
+            Telegram orqali yuborish
+        </a>
+    </div>
+
+    <div class="blog-container">
+        
+        <!-- 1-MAQOLA (RASMLI NAMUNA) -->
+        <div class="post-card">
+            <!-- Internetdan olingan tayyor rasm linki qo'yildi -->
+            <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600" alt="Notiqlik" class="post-image">
+            
+            <div class="post-content">
+                <h2 class="post-title">Notiqlik san'atining jamiyatdagi o'rni</h2>
+                <div class="post-meta">Muallif: Shahriyor Abdumalikov | Sana: 16-Iyul, 2026</div>
+                <p class="post-text">
+                    Notiqlik — shunchaki chiroyli gapirish emas, balki insonlar qalbiga yo'l topish va ularni ezgu g'oyalar atrofida birlashtirish san'atidir. Haqiqiy notiq o'z nutqi bilan tinglovchilarni ilhomlantira oladi...
+                </p>
+            </div>
+        </div>
+
+        <!-- BU YERGA KEYINGI PULLIK MAQOLALARNI QO'SHASIZ -->
+
+    </div>
+    
+    <div style="margin-top: 10px; margin-bottom: 30px;">
+        <a href="index.html" style="text-decoration: none; color: #007bff; font-weight: bold; background: white; padding: 8px 16px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">← Bosh sahifaga qaytish</a>
+    </div>
+<!-- ======================================================= -->
+    <!-- MAQOLA QABUL QILISH VA SHARTLAR BO'LIMI (YANGI QO'SHIMCHA) -->
+    <!-- ======================================================= -->
+    <div style="background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%); padding: 25px; border-radius: 16px; margin-top: 40px; margin-bottom: 30px; border: 1px solid rgba(255, 215, 0, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);">
+        
+        <h3 style="color: #ffd700; text-align: center; font-size: 22px; margin-bottom: 15px; font-family: 'Arial', sans-serif;">
+            📢 Platformada maqola chop etish shartlari
+        </h3>
+        
+        <p style="color: #e0e0e0; font-size: 15px; line-height: 1.6; text-align: justify; margin-bottom: 20px;">
+            Siz ham o'z ijodiy namunalaringiz, ilmiy maqolalaringiz yoki shaxsiy mulohazalaringizni ushbu rasmiy platformada e'lon qilmoqchimisiz? Biz sizga o'z portfoliongizni yaratish va keng auditoriyaga chiqish imkoniyatini beramiz!
+        </p>
+
+        <!-- Shartlar ro'yxati -->
+        <ul style="color: #000000; padding-left: 20px; font-size: 15px; line-height: 1.8; margin-bottom: 25px;">
+            <li> Matnlar tushunarli, savodli va Word (doc, docx) formatida bo'lishi lozim.</li>
+            <li> Muallifning to'liq ismi-sharifi va o'qish/ish joyi aniq ko'rsatiladi.</li>
+            <li> Xizmat to'lovi kelishilgan holda amalga oshiriladi.</li>
+            <li> Maqola 10-15 daqiqa ichida saytga joylashtiriladi va sizga tayyor havola (link) taqdim etiladi.</li>
+        </ul>
+
+        <!-- Telegram orqali maqola yuborish tugmasi -->
+        <div style="text-align: center;">
+            <a href="https://t.me/abdulmal1kov" target="_blank" style="padding: 15px 30px; background: linear-gradient(135deg, #2a9df4 0%, #117a8b 100%); color: white; text-decoration: none; border-radius: 12px; font-weight: bold; display: inline-block; width: 100%; box-sizing: border-box; box-shadow: 0 4px 15px rgba(42, 157, 244, 0.4); font-size: 16px; transition: 0.3s;">
+                ✍️ Maqola yuborish (Telegram)
+            </a>
+        </div>
+        
+    </div>
+    <!-- ======================================================= -->
+</body>
+</html>
