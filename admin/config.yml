@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  repo: shahriyor051910-dev/my-site
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "blog"
+    label: "Maqolalar"
+    folder: "articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Sarlavha", name: "title", widget: "string" }
+      - { label: "Sana", name: "date", widget: "datetime" }
+      - { label: "Muallif", name: "author", widget: "string", default: "Shahriyor" }
+      - { label: "Maqola matni", name: "body", widget: "markdown" }
